@@ -3,17 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment-01</title>
+    <title>Assignment Landing Page</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- Header / Navbar + Banner -->
     <header>
-      <div class="nav">
-        <h1 class="logo">logo</h1>
-        <button class="btn">sign Up</button>
+      <div class="navbar">
+        <h1 class="logo">LOGO</h1>
+        <button class="btn">Sign Up</button>
+      </div>
+
+      <div class="banner">
+        <h2>Cool Dark UI Template for Webflow Agencies!</h2>
+        <button class="btn">Stay Focused</button>
       </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <!-- Action Section -->
+    <main>
+      <section class="action">
+        <div class="action-text">
+          <h3>See It in Action</h3>
+          <p>
+            Explore the UI in action and highlight your brand in the modern
+            look.
+          </p>
+          <button class="btn">Launch Live Preview</button>
+        </div>
+        <div class="action-image">
+          <div class="image-placeholder">[Image]</div>
+        </div>
+      </section>
+
+      <!-- Productive Users Section -->
+      <section class="users">
+        <h3>Joined Thousands of Productive Users</h3>
+        <div class="user-stats">
+          <div>
+            <h2>50K</h2>
+            <p>Active Users</p>
+          </div>
+          <div>
+            <h2>2M+</h2>
+            <p>Press Sessions</p>
+          </div>
+          <div>
+            <h2>95%</h2>
+            <p>Satisfaction Rate</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feedback Section -->
+      <section class="feedback">
+        <h3>What Our Users Say</h3>
+        <div class="feedback-cards">
+          <div class="card">
+            <p>★★★★★</p>
+            <h4>Excellent Design</h4>
+            <p>Clean and modern. Boosted my brand!</p>
+            <div class="reviewer">
+              <img src="reviewer1.png" alt="Reviewer" />
+              <div>
+                <strong>Jane Doe</strong>
+                <p>May 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <p>★★★★★</p>
+            <h4>User-Friendly</h4>
+            <p>Super easy to use and intuitive.</p>
+            <div class="reviewer">
+              <img src="reviewer2.png" alt="Reviewer" />
+              <div>
+                <strong>John Smith</strong>
+                <p>June 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="contact-text">
+          <h3>Let’s Get in Touch</h3>
+        </div>
+        <div class="contact-form">
+          <form>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Get in Touch</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h2>LOGO</h2>
+      <p>Trusted by thousands. Designed for agencies.</p>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">How it works</a>
+        <a href="#">Services</a>
+      </div>
+    </footer>
   </body>
 </html>
