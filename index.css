@@ -114,7 +114,7 @@ header {
 
 .user-stats div h2 {
   color: #3c4fff;
-  font-size: 32px;
+  font-size: 52px;
 }
 
 /* Feedback Section */
@@ -122,6 +122,11 @@ header {
   padding: 60px 10%;
   background-color: #f9f9f9;
   text-align: center;
+}
+.feedback h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #000000;
 }
 
 .feedback-cards {
@@ -137,7 +142,12 @@ header {
   border-radius: 8px;
   width: 300px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: justify;
+}
+.card h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .reviewer {
@@ -152,21 +162,69 @@ header {
   height: 40px;
   border-radius: 50%;
 }
+/* Ready to Focus Section */
+.ready-focus {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.ready-focus h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.ready-focus p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #333;
+}
+.ready-focus .btn {
+  margin-bottom: 20px;
+}
+
+.ready-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Contact */
 .contact {
   display: flex;
   justify-content: space-between;
   padding: 60px 10%;
-  background-color: #f1f1f1;
 }
 
 .contact-text {
   flex: 1;
+
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 30px;
+  text-align: left;
 }
 
 .contact-form {
   flex: 1;
+  margin-left: 40px;
+}
+.contact-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 form {
@@ -188,6 +246,11 @@ footer {
   padding: 40px 10%;
   text-align: center;
   color: #444;
+}
+footer h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .footer-links {
