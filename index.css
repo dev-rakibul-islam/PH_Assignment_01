@@ -1,0 +1,29 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Set the body background and text color */
+body {
+  font-size: san-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #111;
+}
+/* Style the header */
+header {
+  background-image: url("../../Assets/Hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 40px 20px;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
