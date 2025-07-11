@@ -5,11 +5,15 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f8ff;
+  margin: 0 auto;
   font-family: Arial, sans-serif;
   color: #111;
-  background-color: #fff;
-  line-height: 1.6;
+  padding: 0 20px;
 }
 
 .btn {
@@ -47,7 +51,7 @@ header {
 
 .navbar h1 {
   font-size: 36px;
-  color: #000000;
+  color: #1f11db;
 }
 
 .banner {
